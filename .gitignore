@@ -1,0 +1,7 @@
+node_modules/
+vendor/*.zip
+
+vendor/ruffle/*.map
+
+assets/web/nivel-*.swf
+assets/original/nivel-*.swf

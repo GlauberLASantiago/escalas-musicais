@@ -1,0 +1,152 @@
+[
+  {
+    "label": "dificuldade_1.swf",
+    "sha256": "983e1a947b4684440ee3a827e9e8d805f46901dc767e4974103e58304225575b",
+    "size": 224105,
+    "signature": "CWS",
+    "swf_version": 11,
+    "declared_uncompressed_length": 228975,
+    "actual_uncompressed_length": 228975,
+    "width": 720.0,
+    "height": 480.0,
+    "fps": 20.0,
+    "frames": 2,
+    "tags": {
+      "69": 1,
+      "77": 1,
+      "9": 1,
+      "32": 1,
+      "4": 1,
+      "82": 2,
+      "87": 2,
+      "76": 2,
+      "1": 2,
+      "0": 1
+    },
+    "file_attributes": [
+      24
+    ],
+    "as3_flag": true,
+    "frame_labels": [],
+    "editable_text": [],
+    "constant_pool_strings": [],
+    "sounds": [],
+    "exe": {
+      "name": "EscalasMusicaisNivel1.exe",
+      "sha256": "04eac8647968ef11ef0d565940a64e8ab32d3c381697005b9961c04e2db8cb8c",
+      "size": 3702569,
+      "embedded_swf": [
+        {
+          "offset": 3478456,
+          "size": 224105,
+          "sha256": "983e1a947b4684440ee3a827e9e8d805f46901dc767e4974103e58304225575b",
+          "matches_swf_byte_exact": true,
+          "swf_version": 11,
+          "width": 720.0,
+          "height": 480.0
+        }
+      ],
+      "footer_hex": "400000002f6d3ee7563412fa696b0300"
+    }
+  },
+  {
+    "label": "dificuldade_2.swf",
+    "sha256": "020d17b7df9b0aeb15b8eb0b05bcf551ad3dad95e0c501a9889a298ee457ce0a",
+    "size": 417177,
+    "signature": "CWS",
+    "swf_version": 11,
+    "declared_uncompressed_length": 422008,
+    "actual_uncompressed_length": 422008,
+    "width": 720.0,
+    "height": 480.0,
+    "fps": 20.0,
+    "frames": 2,
+    "tags": {
+      "69": 1,
+      "77": 1,
+      "9": 1,
+      "32": 1,
+      "4": 1,
+      "82": 2,
+      "87": 2,
+      "76": 2,
+      "1": 2,
+      "0": 1
+    },
+    "file_attributes": [
+      24
+    ],
+    "as3_flag": true,
+    "frame_labels": [],
+    "editable_text": [],
+    "constant_pool_strings": [],
+    "sounds": [],
+    "exe": {
+      "name": "EscalasMusicaisNivel2.exe",
+      "sha256": "2499c1c3077c6dbf5fbcd8a58a5abe20682cc590e1805c0f68f48e0ff508a30a",
+      "size": 3895641,
+      "embedded_swf": [
+        {
+          "offset": 3478456,
+          "size": 417177,
+          "sha256": "020d17b7df9b0aeb15b8eb0b05bcf551ad3dad95e0c501a9889a298ee457ce0a",
+          "matches_swf_byte_exact": true,
+          "swf_version": 11,
+          "width": 720.0,
+          "height": 480.0
+        }
+      ],
+      "footer_hex": "40000000bfcc3c9f563412fa995d0600"
+    }
+  },
+  {
+    "label": "dificuldade_3.swf",
+    "sha256": "83c0d8d354050b1fd8cd9dfb980f546b65aafc4f61cd10ffe15d914979557f5a",
+    "size": 474431,
+    "signature": "CWS",
+    "swf_version": 11,
+    "declared_uncompressed_length": 479260,
+    "actual_uncompressed_length": 479260,
+    "width": 720.0,
+    "height": 480.0,
+    "fps": 30.0,
+    "frames": 2,
+    "tags": {
+      "69": 1,
+      "77": 1,
+      "9": 1,
+      "32": 1,
+      "4": 1,
+      "82": 2,
+      "87": 2,
+      "76": 2,
+      "1": 2,
+      "0": 1
+    },
+    "file_attributes": [
+      24
+    ],
+    "as3_flag": true,
+    "frame_labels": [],
+    "editable_text": [],
+    "constant_pool_strings": [],
+    "sounds": [],
+    "exe": {
+      "name": "EscalasMusicaisNivel3.exe",
+      "sha256": "a362ca2580e2d010f32496c963d9f911d2f41fd44c7b1bcb6e202598ec71f0ee",
+      "size": 3952895,
+      "embedded_swf": [
+        {
+          "offset": 3478456,
+          "size": 474431,
+          "sha256": "83c0d8d354050b1fd8cd9dfb980f546b65aafc4f61cd10ffe15d914979557f5a",
+          "matches_swf_byte_exact": true,
+          "swf_version": 11,
+          "width": 720.0,
+          "height": 480.0
+        }
+      ],
+      "footer_hex": "400000002f82b6cf563412fa3f3d0700"
+    }
+  }
+]
