@@ -18,7 +18,7 @@ As menores incluem as formas natural, harmônica e melódica. Há controles úni
 
 Os EXEs fornecidos são projetores Flash e contêm byte a byte os SWFs correspondentes. O pacote foi inventariado com REA; o conteúdo SWF e os métodos ActionScript foram examinados por parsers locais. O app executa esse conteúdo com [Ruffle 0.7.1](https://github.com/ruffle-rs/ruffle/releases/tag/v0.7.1), hospedado junto ao site, sem exigir Adobe Flash ou extensão.
 
-`assets/original/dificuldade_N.swf` preserva os arquivos fornecidos. As versões de reprodução em `assets/web/dificuldade_N.swf` alteram somente constantes XML de fonte TLF: Calibri incorporada passa a Arial de dispositivo, para que os números dos contadores sejam visíveis. O carregador, os métodos e o restante dos recursos permanecem intactos. Três testes verificam essa preservação byte a byte.
+`assets/original/dificuldade_N.swf` preserva os arquivos fornecidos. As versões de reprodução em `assets/web/dificuldade_N.swf` adaptam constantes XML de fonte TLF: Calibri incorporada passa a Arial de dispositivo, para que os números dos contadores sejam visíveis. Os dois campos numéricos são elevados 7 px para alinhar com os rótulos do placar. O carregador, os métodos e o restante dos recursos permanecem intactos. Três testes verificam essa preservação byte a byte, permitindo somente as alterações específicas de fonte e posição.
 
 O arquivo externo `creditos.swf`, citado pelo jogo, não foi fornecido. O controle Sobre da interface web apresenta as informações verificadas, mantendo as marcas originais Educação Musical UFSCar, UFSCar e CAPES. Não se reconstruiu uma lista de autores sem evidência.
 

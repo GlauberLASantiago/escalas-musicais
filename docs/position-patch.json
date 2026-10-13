@@ -1,0 +1,185 @@
+[
+  {
+    "level": 1,
+    "source_sha256": "c7ef502439d5d22a7f66b54d555a2d2ec0622850a380ed66986857230ddb5a44",
+    "patched_sha256": "776276409f8522e30499f62a362027ce2473843c8bc5c71cd280e5ea3fd39995",
+    "changes": [
+      {
+        "level": 1,
+        "tag_index": 70,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 106290,
+        "frame": 1,
+        "name": "wa",
+        "depth": 26,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13645,
+          "y": 9219
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13645,
+          "y": 9079
+        },
+        "before_hex": "261a0004001ed5352018776100",
+        "after_hex": "261a0004001ed5351bb8776100"
+      },
+      {
+        "level": 1,
+        "tag_index": 71,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 106305,
+        "frame": 1,
+        "name": "ra",
+        "depth": 27,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 12265,
+          "y": 9221
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 12265,
+          "y": 9081
+        },
+        "before_hex": "261b0004001ebfa52028726100",
+        "after_hex": "261b0004001ebfa51bc8726100"
+      }
+    ]
+  },
+  {
+    "level": 2,
+    "source_sha256": "8208d8809f6cd530cc4cf88869aeed4fc85cfb6c91fa53c19f83c53ae3661a11",
+    "patched_sha256": "bf161090732bafde5285dcdc14f7b1312bca8e3c717f8805f30910d7b63f3259",
+    "changes": [
+      {
+        "level": 2,
+        "tag_index": 72,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 106102,
+        "frame": 1,
+        "name": "wa",
+        "depth": 27,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13195,
+          "y": 9170
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13195,
+          "y": 9030
+        },
+        "before_hex": "261b0004001ece2d1e90776100",
+        "after_hex": "261b0004001ece2d1a30776100"
+      },
+      {
+        "level": 2,
+        "tag_index": 73,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 106117,
+        "frame": 1,
+        "name": "ra",
+        "depth": 28,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 11810,
+          "y": 9170
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 11810,
+          "y": 9030
+        },
+        "before_hex": "261c0004001eb8891e90726100",
+        "after_hex": "261c0004001eb8891a30726100"
+      }
+    ]
+  },
+  {
+    "level": 3,
+    "source_sha256": "d48a9e74b69cf96972b03d65e3a5db2a0c6d3cb245c0e3c70cb97498ab3516a4",
+    "patched_sha256": "80d1054e510a9457e80af967fd54c5eb6c347b8814c25c4c23a481c2dd758469",
+    "changes": [
+      {
+        "level": 3,
+        "tag_index": 72,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 118525,
+        "frame": 1,
+        "name": "wa",
+        "depth": 34,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13438,
+          "y": 9163
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 13438,
+          "y": 9023
+        },
+        "before_hex": "26220004001ed1f91e58776100",
+        "after_hex": "26220004001ed1f919f8776100"
+      },
+      {
+        "level": 3,
+        "tag_index": 73,
+        "tag_type": 26,
+        "uncompressed_tag_offset": 118540,
+        "frame": 1,
+        "name": "ra",
+        "depth": 35,
+        "before": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 12046,
+          "y": 9163
+        },
+        "after": {
+          "start": 40,
+          "prefix_end": 42,
+          "end": 10,
+          "bits": 15,
+          "x": 12046,
+          "y": 9023
+        },
+        "before_hex": "26230004001ebc391e58726100",
+        "after_hex": "26230004001ebc3919f8726100"
+      }
+    ]
+  }
+]

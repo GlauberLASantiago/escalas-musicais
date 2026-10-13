@@ -12,7 +12,7 @@ async function start(value){
   const ruffle=window.RufflePlayer?.newest();if(!ruffle)throw new Error('Player indisponível');
   player=ruffle.createPlayer();player.setAttribute('aria-label',`Jogo Escalas Musicais, nível ${level}`);$('player-container').append(player);
   const activePlayer=player;
-  await player.ruffle().load({url:`assets/web/dificuldade_${level}.swf`,autoplay:'on',splashScreen:false,allowScriptAccess:false,allowNetworking:'internal',openUrlMode:'deny',scale:'showAll',forceScale:true,letterbox:'on',logLevel:'warn'});
+  await player.ruffle().load({url:`assets/web/dificuldade_${level}.swf?v=score-align-2`,autoplay:'on',splashScreen:false,allowScriptAccess:false,allowNetworking:'internal',openUrlMode:'deny',scale:'showAll',forceScale:true,letterbox:'on',logLevel:'warn'});
   if(request!==serial||activePlayer!==player)return;
   player.ruffle().volume=muted?0:1;$('loading').hidden=true;
  }catch(error){if(request!==serial)return;$('loading').hidden=true;$('status').textContent='Não foi possível abrir o jogo. Verifique a conexão e use Reiniciar nível para tentar novamente.';console.error(error);}

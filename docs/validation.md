@@ -15,6 +15,8 @@ Um erro de API de pausa encontrado durante o desenvolvimento foi corrigido para 
 
 ## Testes de preservação
 
-Três testes passaram, um por nível. Comparam todos os recursos/tags originais com as variantes, verificam que só o conteúdo ID3 muda no carregador e que somente as constantes XML previstas mudam no conteúdo. Todos os metadados, métodos e corpos ActionScript depois do pool de strings são idênticos. Sons, vetores, textos estáticos e demais recursos também são comparados.
+Três testes passaram, um por nível. Comparam todos os recursos/tags originais com as variantes, verificam que só o conteúdo ID3 muda no carregador e que somente as constantes XML previstas e os dois placements específicos do placar mudam no conteúdo. Todos os metadados, métodos e corpos ActionScript depois do pool de strings são idênticos. Sons, vetores, textos estáticos e demais recursos também são comparados.
+
+Correção de alinhamento: os campos ra/wa foram elevados 140 twips (7 px) nos três níveis, sem mudar x, escala, rotação, nome ou profundidade. O teste compara os seis payloads PlaceObject2 exatos antes/depois, sem exceção genérica para outras posições. O navegador confirmou que 0 e 1 agora ficam na mesma linha dos rótulos; registrar um acerto continuou incrementando o contador. O manifesto position-patch.json documenta os offsets e matrizes. URLs versionadas evitam reutilizar os SWFs anteriores em cache.
 
 Os testes não afirmam que todas as 60 questões foram respondidas manualmente nem que a compatibilidade de todo Flash é completa. As perguntas e os retornos acima foram observados no navegador; quantidade/sequência e contagem são apoiadas na análise estática do ABC.
